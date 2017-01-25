@@ -1,0 +1,23 @@
+﻿authentication:
+  azureAd:
+    aadInstance: https://login.microsoftonline.com/
+    domain:
+    tenantId:
+    clientId: FROM appsettings.yml
+    clientSecret:
+    callbackPath:
+
+connectionStrings:
+  -
+    name: ApplicationDbContext
+    connectionString:
+  -
+    name: StorageBlobContext
+    connectionString:
+
+logging:
+  includeScopes: false
+  logLevel:
+    default: Debug
+    system: Information
+    microsoft: Information
